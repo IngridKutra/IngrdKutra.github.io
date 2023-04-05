@@ -1,0 +1,1421 @@
+GET https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+
+### 2.8 lägga in alla recept i http-fil alla tårtor
+### 5 REST-API
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Midsommartårta",
+    "description": "Ett måste till midsommar",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_238653/cf_259/midsommartarta.jpg",
+    "timeInMins": 60,
+    "categories": [ "Tårtor" ],
+    "ingredientsAntal": 17,
+    "ingredients": [
+        {     
+            "name": "Botten:"
+        },
+        {     
+            "name": "Rumstempererat smör",
+            "amount": 100,
+            "unit": "g"
+        },
+        {
+            "name": "Strösocker",
+            "amount": 2.3,
+            "unit": "dl"
+        },
+        {
+            "name": "Ägg",
+            "amount": 2,
+            "unit": "st"
+        },
+        {
+            "name": "Sirap",
+            "amount": 1,
+            "unit": "msk"
+        },
+        {
+            "name": "Vetemjöl",
+            "amount": 1.5,
+            "unit": "dl"
+        },
+        {
+            "name": "Salt",
+            "amount": 0.5,
+            "unit": "tsk"
+        },
+        {
+            "name": "Vaniljsocker",
+            "amount": 1.5,
+            "unit": "tsk"
+        },
+        {
+            "name": "Kakao",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Dubbeldaim",
+            "amount": 112,
+            "unit": "g"
+        },
+        {
+            "name": "Smör (till formen)"
+            
+        },
+        {
+            "name": "Ströbröd (till formen)"
+        },
+        {
+            "name": "Fyllning:"
+        },
+        {
+            "name": "Gelatinblad",
+            "amount": 5,
+            "unit": "st"
+        },
+        {
+            "name": "Färska jordgubbar",
+            "amount": 0.5,
+            "unit": "l"
+        },
+        {
+            "name": "Äggulor",
+            "amount": 3,
+            "unit": "st"
+        },
+        {
+            "name": "Florsocker",
+            "amount": 2,
+            "unit": "dl"
+        },
+        {
+            "name": "Vispgrädde",
+            "amount": 6,
+            "unit": "dl"
+        },
+        {
+            "name": "Garnering:"
+        },
+        {
+            "name": "Färska jordgubbar",
+            "amount": 1,
+            "unit": "l"
+        }
+    ],
+    "instructions": [ "Sätt ugnen på 175°C.", "Botten: Vispa smör, socker och sirap pösigt. Rör ner äggen.", "Blanda vetemjöl, salt, vaniljsocker och kakao. Hacka daimen grovt. Tillsätt mjölblandningen och daimen i smeten. Bre ut smeten i en smord, bröad springform, ca 24 cm i diameter (för 12 bitar).", "Grädda i ca 20 minuter. Låt botten kallna. Ta bort ringen på formen och torka bort ströbrödet. Sätt tillbaka ringen på botten.", "Fyllning: Blötlägg gelatinbladen 5 minuter i kallt vatten.", "Mixa jordgubbarna i matberedare eller med stavmixer till en slät puré.", "Vispa äggulor och florsocker luftigt. Vispa grädden till lös konsistens.", "Värm 1/10 av jordgubbspurén i en kastrull. Ta upp gelatinbladen och tillsätt i kastrullen. Låt det smälta på svag värme. Rör ner gelatinblandningen i resten av purén.", "Blanda försiktigt ner äggsmeten i purén och sedan grädden till en slät smet. Häll smeten över bottnen. Ställ minst 4 timmar i kylskåp eller i frysen. Tina 4 timmar i rumstemperatur vid serveringen.", "Toppa tårtan med rensade jordgubbar."]
+    
+}
+
+###
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Skördetårta med rödbetor, hallon och valnötter",
+    "description": "Rårivna rödbetor gömmer sig i denna maffiga tårta med kryddig smak av kanel, ingefära och muskot. Hallon färgar den syrliga färskostfyllningen läckert rosa. Det hela fullbordas med fluffig grädde och knapriga valnötter.",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_81161/cf_259/skordetarta_med_rodbetor__hallon_och_valnotter.jpg",
+    "timeInMins": 60,
+    "categories": [ "Tårtor" ],
+    "ingredientsAntal": 21,
+    "instructions": [ "Rödbetskaka: Sätt ugnen på 175°C.", "Smörj en rund form med smör, ca 24 cm i diameter (för 10 portioner), och 'bröa' den med kokos.", "Skala och finriv rödbetorna.", "Vispa socker, farinsocker, rapsolja och ägg pösigt. Tillsätt de rivna rödbetorna.", "Blanda alla torra ingredienser i en bunke. Rör ner dem i rödbetssmeten.", "Häll smeten i formen. Grädda i nedre delen av ugnen ca 50 minuter. Kontrollera med provsticka, kakan ska inte vara kladdig. Låt svalna.", "Fyllning: Mosa hallonen med en gaffel. Vispa ihop med färskost, florsocker och vaniljsocker i en bunke.", "Skär kakan i två bottnar. Lägg den undre på ett fat och bred över hälften av hallonmoset. Lägg över den andra bottnen och bred på resten av fyllningen.", "Topping: Vispa grädden. Bred den runt tårtan. Garnera med valnötter och hallon."],
+    "ingredients": [ 
+        { 
+            "name": "Smör till formen"
+        },
+        {
+            "name": "Kokos",
+            "amount": 1,
+            "unit": "dl"
+        },   
+        {
+            "name": "Färska rödbetor",
+            "amount": 300,
+            "unit": "g"
+        },   
+        {
+            "name": "Socker",
+            "amount": 1.05,
+            "unit": "dl"
+        }, 
+        {
+            "name": "Farinsocker",
+            "amount": 1.05,
+            "unit": "dl" 
+        },
+        {
+            "name": "Rapsolja",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Ägg",
+            "amount": 3,
+            "unit": "st"
+        }, 
+        {
+            "name": "Vetemjöl",
+            "amount": 3,
+            "unit": "dl"
+        },
+        {
+            "name": "Malen ingefära", 
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {
+            "name": "Malen kanel", 
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {
+            "name": "Malen muskot",
+            "amount": 0.5,
+            "unit": "tsk"
+        }, 
+        {
+            "name": "Bakpulver",
+            "amount": 1,
+            "unit": "tsk"
+        }, 
+        {
+            "name": "Bikarbonat",
+            "amount": 1,
+            "unit": "tsk"
+        }, 
+        {
+            "name": "Salt",
+            "amount": 1,
+            "unit": "krm"
+        },
+        {
+            "name": "Tinade, frysta hallon",
+            "amount": 350,
+            "unit": "g"
+        }, 
+        {
+            "name": "Färskost",
+            "amount": 300,
+            "unit": "g"
+        },
+        {
+            "name": "Florsocker",
+            "amount": 0.75,
+            "unit": "dl"
+        },
+        {
+            "name": "Vaniljsocker",
+            "amount": 1,
+            "unit": "msk"
+        },
+        {
+            "name": "Vispgrädde",
+            "amount": 2,
+            "unit": "dl"
+        },
+        {
+            "name":"Grovhackade valnötter",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name":"Färska hallon",
+            "amount": 1.5,
+            "unit": "dl"
+        }
+    ]
+}
+
+###
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Fryst citronmoussetårta med passionsfrukt",
+    "description": "Recept på en oemotståndlig och syrlig citronmoussetårta med passionsfrukt. Du gör den av bland annat mandelmassa, ägg, grädde, citron och passionsfrukter. Gör tårtan i tid, frys in och servera den krämiga efterrätten kall.",
+    "ratings": [4, 3, 4, 1, 4, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_227175/cf_259/fryst_citronmoussetarta_med_passionsfrukt.jpg",
+    "timeInMins": 60,
+    "categories": [ "Tårtor" ],
+    "ingredientsAntal": 9,
+    "ingredients": [ 
+        {
+            "name": "Mandelmassa",
+            "amount": 300,
+            "unit":"g"
+        },
+        {
+            "name": "Ägg",
+            "amount": 1,
+            "unit":"st"
+        },
+        {
+            "name": "Äggvitor",
+            "amount": 2,
+            "unit": "st"
+        }, 
+        {
+            "name": "Vispgrädde",
+            "amount": 4,
+            "unit": "dl"
+        },
+        {
+            "name": "Finrivet citronskal",
+            "amount": 0.5,
+            "unit": "msk"
+        },
+        {
+            "name": "Färskpressad citronjuice",
+            "amount": 3,
+            "unit": "msk"
+        },
+        {
+            "name": "Florsocker",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Äggulor", 
+            "amount": 2,
+            "unit": "st"
+        },
+        {
+            "name": "Passionsfrukter",
+            "amount": 4,
+            "unit": "st"
+        }
+    ],
+    "instructions": [ "Sätt ugnen på 175°C.","Riv mandelmassan och rör ner ägg och äggvita. Häll smeten i en smord form med löstagbar kant, 18-20 cm i diameter. Grädda i mitten av ugnen ca 20 minuter. Låt svalna.", "Vispa grädden hårt. Vispa ner citronskal och juice, florsocker och äggulor. Bred ut krämen över den kalla botten i formen. Täck med plastfolie och ställ i frysen minst 8 timmar.", "Ta fram tårtan ca 20 minuter före servering. Dela passionsfrukten och gröp ut fruktköttet med en sked. Skeda passionsfrukten över tårtan."]
+}
+
+###
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Vegansk pavlova med mango och passionsfrukt",
+    "description": "En ljuvligt god, helt vegansk tårta där kikärtsspad används i marängen istället för äggvitor. Tårtan blir vacker dekorerad med pistagenötter, mango och gröna blad.",
+    "ratings": [2, 5, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_177963/cf_259/vegansk_pavlova_med_mango_och_passionsfrukt.jpg",
+    "timeInMins": 60,
+    "categories": [ "Tårtor" ],
+    "ingredientsAntal": 10,
+    "ingredients": [ 
+        {
+            "name": "Kylskåpskallt kikärtsspad från 1 förp kokta kikärtor (à 380 g)",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Strösocker",
+            "amount": 2,
+            "unit": "dl"
+        },
+        {
+            "name": "Pressad citronsaft",
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {
+            "name": "Passionsfrukt",
+            "amount": 1,
+            "unit": "st"
+        },
+        {
+            "name": "Växtbaserat alternativ till grädde (vispbar)", 
+            "amount": 3,
+            "unit": "dl"
+        },
+        {
+            "name":"Florsocker",
+            "amount": 2,
+            "unit": "msk"
+        },
+        {
+            "name": "Hackade pistagenötter",
+            "amount": 0.5,
+            "unit": "dl"
+        },
+        {
+            "name": "Färsk mango",
+            "amount": 1,
+            "unit": "st"
+        }, 
+        {
+            "name": "1 passionsfrukt",
+            "amount": 1,
+            "unit": "st"
+        }, 
+        {
+            "name": "ev. färsk mynta eller citronmeliss"
+        } ],
+    "instructions": [ "Sätt ugnen på 100°C. Lägg bakplåtspapper på en plåt, 30x40 cm (för 12 bitar).", "Häll av kikärtsspadet (spara spadet, 1 dl spad för 12 bitar) från ärtorna i en finmaskig sil. Vispa kikärtsvätskan tills den är vit och fluffig. Den är tillräckligt vispad när du kan vända den upp och ned.", "Tillsätt socker, ca 1/2 dl i taget, under fortsatt vispning. När smeten är fast och glansig är marängsmeten klar. Vispa ner citronsaften mot slutet.", "Klicka ut smeten och forma till en rund tårtbotten, ca 25 cm i diameter (för 12 bitar). Gör kanterna något högre.", "Grädda i ca 2 1/2 timme tills marängen släpper från pappret. Låt marängen ligga kvar i ugnen och svalna helt ett par timmar (med luckan stängd).", "Topping: Dela och gröp ur passionsfrukten. Vispa den växtbaserade grädden tillsammans passionsfrukt och florsocker.", "Garnering: Hacka pistagenötterna. Skala och skär mangon i skivor. Dela och gröp ur passionsfrukten.", "Klicka grädden på marängen och garnera med mango och passionsfrukt. Strö över pistagenötter och eventuellt mynta eller citronmeliss."]
+}
+
+###
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Vit prinsesstårta med rabarber och jordgubbar",
+    "description": "Vårens kalastårta nummer ett - en riktig partyprinsessa! Imponera med denna proffsiga prinsesstårta med rabarberkompott, hemkokt vaniljkräm och jordgubbar. Det lila bandet blir finast med vit marsipan, med vanlig marsipan blir den lila färgen lite dovare.",
+    "ratings": [2, 3, 4, 5, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_92866/cf_259/vit_prinsesstarta_med_rabarber_och_jordgubbar.jpg",
+    "timeInMins": 60,
+    "categories": [ "Tårtor" ],
+    "ingredientsAntal": 22,
+    "ingredients": [ 
+        {
+            "name": "Tårtbotten:"
+        },
+        {
+            "name": "Ägg",
+            "amount": 4,
+            "unit": "st"
+        },
+        {
+            "name": "Socker",
+            "amount": 2,
+            "unit": "dl"
+        }, 
+        {
+            "name": "Vetemjöl",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Potatismjöl",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {    "name": "Bakpulver",
+             "amount": 1,
+             "unit": "tsk"
+        },
+        {
+            "name": "Finrivet skal av 1/2 citron"
+        },
+        {
+            "name": "Finrivet skal av 1/2 apelsin"
+        },
+        {
+            "name": "Smör och mjöl till formen"
+        },
+        {
+            "name": "Vaniljkräm:"
+        },
+        {
+            "name": "Vaniljstång",
+            "amount": 1,
+            "unit": "st"
+        },
+        {
+            "name": "Mjölk",
+            "amount": 1.5,
+            "unit": "dl"
+        },
+        {
+            "name": "Vispgrädde",
+            "amount": 1.5,
+            "unit": "dl"
+        },
+        {
+            "name": "Socker",
+            "amount": 3,
+            "unit": "msk"
+        },
+        {
+            "name": "Äggulor",
+            "amount": 2,
+            "unit": "st"
+        },
+        {
+            "name": "Majsstärkelse",
+            "amount": 1,
+            "unit": "msk"
+        },
+        {
+            "name": "Rabarberkompott:"
+        },
+         {
+            "name": "Rabarber",
+            "amount": 250,
+            "unit": "g"
+        },
+        {
+            "name": "Frysta, tinade jordgubbar",
+            "amount": 250,
+            "unit": "g" 
+        },
+        {
+            "name": "Socker",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Vaniljpulver",
+            "amount": 0.5,
+            "unit": "tsk"
+        },
+        {
+            "name": "Garnering:"
+        },
+        {
+            "name": "Röd och blå hushållsfärg"
+        }, 
+        {
+            "name": "Vit marsipan",
+            "amount": 200,
+            "unit": "g"
+        },
+        {
+            "name": "Vispgrädde",
+            "amount": 4,
+            "unit": "dl"
+        },
+        {
+            "name": "1 färdigkavlat marsipanlock (gärna vitt)"
+        }],
+    "instructions": [ "Tårtbotten: Sätt ugnen på 175°C.", "Smörj och mjöla en form med löstagbar kant, ca 24 cm i diameter.", "Vispa ägg och socker pösigt i en bunke med elvisp ca 3 minuter.", "Blanda vetemjöl, potatismjöl och bakpulver i en annan bunke.", "Sikta ner mjölblandningen i äggblandningen. Blanda försiktigt med en slickepott till en jämn smet. Rör ner citron- och apelsinskal.", "Häll smeten i formen. Grädda i nedre delen av ugnen ca 30 minuter. Kontrollera med provsticka att kakan är helt torr. Låt svalna helt.", "Vaniljkräm: Dela vaniljstången på längden, skrapa ut fröna. Lägg dem i en tjockbottnad kastrull med övriga ingredienser.", "Sjud under vispning på svag värme, tills det har tjocknat. Låt svalna helt.", "Rabarberkompott: Ansa och skär rabarbern i ca 2 cm stora bitar. Lägg i en kastrull med jordgubbar, socker och vaniljpulver.", "Låt småkoka utan lock på medelvärme 10–15 minuter till en fast kompott. Mosa sönder jordgubbarna med en slev och rör då och då. Låt svalna helt.", "Garnering: Blanda 2 delar röd hushållsfärg med 1 del blå. Färga den vita marsipanen med detta tills den är lila. Lägg i plastfolie.", "Vispa grädden fast. Blanda grädden med 1⁄2 dl av vaniljkrämen (för 10 portioner). Halvera jordgubbarna.", "Bygg tårtan så här: Anvisningen gäller för 10 portioner. Skär tårtbottnen i 3 lika stora delar. Lägg den översta delen med ovansidan nedåt på ett fat. Bred ut vaniljkrämen.", "Lägg på mellanbottnen. Fördela kompotten. Bred ut vaniljgrädden ovanpå och forma den till en kupol (lättast med en palett eller baksidan av en stekspade), men spara ca 1 dl.", "Lägg på den sista bottnen med snittytan uppåt. Tryck försiktigt så den formas efter kupolen. Släta ut resterande vaniljgrädde runt kanterna.", "Lägg på marsipanlocket. Försök undvika att veck bildas genom att sträcka marsipanen nedåt och forma med händerna. Skär bort eventuell överflödig marsipan.", "Dela den lila marsipanen i 2 bitar. Rulla ut till ca 25 cm långa rullar. Kavla ut varje rulle på lätt florsockrat underlag till en 2 mm tjock platta, ca 40 x 4 cm. Skär så att det blir ca 2 1⁄2 cm breda 'band' med raka kanter. Snurra försiktigt banden från mitten och lägg runt tårtan. Nyp ihop skarvarna.", "Skär ett centrerat kryss genom marsipanlocket med en vass kniv. Gör ett snitt i mitten av varje flik ytterligare en gång så det bildas 8 flikar. Vik försiktigt ut flikarna. Fyll 'hålet' med jordgubbar. Sikta över lite florsocker."]
+}
+
+###
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Schwarzwaldtårta",
+    "description": "En riktigt mäktig och fantastiskt god tårta med smak av blockchoklad och vispgrädde. Schwarzwaldtårtan uppskattas lika mycket av stora som av små. Perfekt att servera till kalaset eller högtidsdagen! ",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://www.dahls.se/wp-content/uploads/2021/03/Dahls-tartor-schwarzwaldtarta_kvadrat-1024x1024.jpg",
+    "timeInMins": 60,
+    "categories": [ "Tårtor" ],
+    "ingredientsAntal": 9,
+    "ingredients": [ 
+        {
+            "name": "Havregryn",
+            "amount": 2,
+            "unit": "dl"
+        },
+        { 
+            "name": "Smör",
+            "amount": 50,
+            "unit": "g"
+        }, 
+        {
+            "name": "Socker",
+            "amount": 1.5,
+            "unit": "dl"
+        },
+        {
+            "name": "Majsstärkelse",
+            "amount": 1,
+            "unit": "msk"
+        },
+        {
+            "name": "Bakpulver",
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {
+            "name": "Ägg",
+            "amount": 1,
+            "unit": "st"
+        },
+        { 
+            "name": "Fyllning:"
+        },
+        {
+            "name": "Mellan- eller vispgrädde",
+            "amount": 5,
+            "unit": "dl"
+        },
+        {
+            "name": "Vaniljsocker",
+            "amount": 1,
+            "unit": "msk"
+        },
+        {
+            "name": "Garnering:"
+        },
+        {
+            "name": "Mörk blockchoklad",
+            "amount": 150,
+            "unit": "g"
+        }],
+    "instructions": [ "Sätt ugnen på 200°C.", "Rosta havregrynen i en torr het stekpanna tills de får en aning färg. Se upp, för de kan lätt brännas! Låt grynen kallna", "Smält matfettet och häll det över havregrynen. Tillsätt socker, maizena och bakpulver. Vispa upp ägget och tillsätt det.", "Rita 3 cirklar med ca 21 cm diameter på bakplåtspapper (för 10 bitar). Fördela smeten i ett tunt jämnt lager på varje cirkel. Grädda 6-8 minuter mitt i ugnen.", "Låt bottnarna svalna plant. Dra försiktigt loss papperet.", "Smält blockchokladen och bre ut den till ett tunt lager på bakplåtspapper. Dra med en gaffel om du vill ha ett vågmönster. Låt chokladen stelna svalt, men skär rutmönster innan den är riktigt hård.", "Fyllning: Vispa grädden till fast skum och smaksätt med vaniljsocker.", "Spritsa eller bre ut fyllningen mellan bottnarna och ovanpå tårtan.", "Garnera med chokladbitar. Servera tårtan inom de närmaste timmarna, eftersom bottnarna blir mjuka om de får vänta länge."]
+}
+
+### alla bakelser
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Lussebullar",
+    "description": "Ett klassiskt recept på lussebullar eller lussekatter! Grädda större längder och flätor i nedre delen av ugnen i 15-20 minuter och de mindre i 8-10 minuter.",
+    "ratings": [1, 3, 1, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_221638/cf_259/lussebullar.jpg",
+    "timeInMins": 60,
+    "categories": [ "Bakelser" ],
+    "ingredientsAntal": 9,
+    "ingredients": [ {     
+            "name": "Jäst",
+            "amount": 50,
+            "unit": "g"
+        },
+        {     
+            "name": "Smör eller Margarin",
+            "amount": 175,
+            "unit": "g"
+        },
+        {     
+            "name": "Saffran ",
+            "amount": 2,
+            "unit": "påsar"
+        },
+        {     
+            "name": "Socker",
+            "amount": 2,
+            "unit": "dl"
+        },
+        {     
+            "name": "Mjölk",
+            "amount": 5,
+            "unit": "dl"
+        },
+        {     
+            "name": "Salt",
+            "amount": 0.5,
+            "unit": "tsk"
+        },
+        {     
+            "name": "Vetemjöl",
+            "amount": 1.5,
+            "unit": "liter"
+        }],
+    "instructions": [ "Smula ner jästen i degbunken.", "Smält matfettet.", "Stöt saffranet med lite av sockret i en mortel. Rör ner saffranet i det smälta matfettet. Tillsätt mjölken och ljumma degspadet till ca 37°C.", "Rör ut jästen i lite av degspadet. Tillsätt resten av degspadet, socker och salt. Arbeta i nästan allt vetemjöl och arbeta degen ca 5 minuter i maskin eller 10 minuter för hand. Strö lite mjöl över degen. Låt den jäsa under bakduk 30- 45 minuter.", "Ta upp degen på mjölad arbetsbänk. Knåda ev. i resten av mjölet.", "Baka ut lussekatter/julkusar, flätor eller längder. Lägg bröden på plåtar med bakplåtspapper.", "Låt jäsa under bakduk 30-45 minuter.", "Sätt ugnen på 200°C.", "Pensling och garnering: Pensla med uppvispat ägg och tryck i russin.", "Grädda bullarna mitt i ugnen 8-10 minuter och längder och flätor i nedre delen av ugnen 15-20 minuter.", "Låt bullarna svalna på galler under bakduk."]
+}
+
+###
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Kladdig kladdkaka",
+    "description": "Kladdig kladdkaka är ju det godaste som finns. Med detta recept på kladdkaka får kakan perfekt krispig yta samtidigt som den är kladdig i mitten. Vill du ha en extra kladdig kladdkaka är det bara att justera tiden i ugnen. Servera med vispgrädde och du har fixat en riktig drömfika!",
+    "ratings": [5, 3, 4, 5, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_221660/cf_259/kladdig_kladdkaka.jpg",
+    "timeInMins": 45,
+    "categories": [ "Bakelser" ],
+    "ingredientsAntal": 12,
+    "ingredients": [ 
+        {     
+            "name": "Smör",
+            "amount": 100,
+            "unit": "g"
+        },
+        {     
+            "name": "Ägg",
+            "amount": 2,
+            "unit": "st"
+        },
+        {     
+            "name": "Socker",
+            "amount": 2.5,
+            "unit": "dl"
+        },
+        {     
+            "name": "Kakao",
+            "amount": 3,
+            "unit": "msk"
+        },
+        {     
+            "name": "Vaniljsocker",
+            "amount": 2,
+            "unit": "tsk"
+        },
+        {     
+            "name": "Vetemjöl",
+            "amount": 1.5,
+            "unit": "dl"
+        },
+        {     
+            "name": "Salt",
+            "amount": 1,
+            "unit": "krm"
+        },
+        {     
+            "name": "Vispgrädde",
+            "amount": 2,
+            "unit": "dl"
+        }],
+    "instructions": [ "Sätt ugnen på 200°C.", "Smörj och bröa en form med löstagbar kant, ca 24 cm i diameter (för 8 bitar) eller spänn fast ett bakplåtspapper på botten.", "Smält smöret i kastrull, låt svalna något.", "Vispa ihop ägg och socker (använd inte en elvisp).", "Blanda kakao, vaniljsocker, vetemjöl och salt i en bunke och rör ner i äggblandningnen.", "Tillsätt det smälta smöret och blanda försiktigt ihop till en jämn smet och häll sedan över smeten i formen.", "Grädda mitt i ugnen i ca 10-15 minuter (öka eller minska tiden vid behov beroende på hur kladdig du vill ha den).", "Ta ut kladdkakan och låt svalna.", "Sikta florsocker över om så önskas. Servera med vispad grädde och färska bär."]
+}
+
+###
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Napoleonbakelse med äppelmos",
+    "description": "Med detta recept kan du snabbt göra en frasig smördegsbakelse med en underbar, fluffig vaniljfyllning och äppelmos. Bygg ihop din mumsiga Napoleonbakelse och toppa med syrlig vinbärsgelé och sött florsocker före du skär kakan i vackra portionsbitar.",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_15195/cf_259/napoleonbakelse_med_appelmos.jpg",
+    "timeInMins": 30,
+    "categories": [ "Bakelser" ],
+    "ingredientsAntal": 7,
+    "ingredients": [
+        {     
+            "name": "Fryst Smördeg",
+            "amount": 3,
+            "unit": "plattor"
+        },
+        {     
+            "name": "Vaniljkräm",
+            "amount": 2.5,
+            "unit": "dl"
+        },
+        {     
+            "name": "Vispad grädde",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {     
+            "name": "Äppelmos",
+            "amount": 1.5,
+            "unit": "dl"
+        },
+        {     
+            "name": "Rödvinbärsgelè",
+            "amount": 2.5,
+            "unit": "tsk"
+        },
+        {     
+            "name": "Florsocker",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {     
+            "name": "Vatten",
+            "amount": 1,
+            "unit": "msk"
+        }],
+    "instructions": [ "Sätt ugnen på 225 °C.", "Tina fryst smördeg lätt och kavla ut dem till 8 X 40 cm (för 10 bitar), lägg plattorna på vattensköljd plåt. Grädda längderna ca 10 minuter och låt dem kallna.", "Gör vaniljkräm. Låt den kallna och blanda den med vispad grädde. Bred äppelmos på en av bottnarna. Lägg på nästa botten. Bre på vaniljgrädde. Täck med översta bottnen. Lägg undersidan uppåt.", "Smält röd vinbärsgelé och bre på ett tunt lager. Rör ihop florsocker och vatten och bre på detta. Skär längderna i portionsbitar."]
+}
+
+###
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Amerikanska blåbärsmuffins",
+    "description": "Supergoda blåbärsmuffins med härligt krispiga spån av mandel. Häll bara ner din smet i muffinsformar före du tillsätter de söta blåbären och gräddar i ugn. Servera de härliga, amerikanska blåbärsmuffinsen avsvalnade.",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_63253/cf_259/amerikanska_blabarsmuffins.jpg",
+    "timeInMins": 45,
+    "categories": [ "Bakelser" ],
+    "ingredientsAntal": 9,
+    "ingredients": [ 
+        {     
+            "name": "rumstempererat Smör eller Margarin",
+            "amount": 150,
+            "unit": "g"
+        },
+        {     
+            "name": "Socker",
+            "amount": 2,
+            "unit": "dl"
+        },
+        {     
+            "name": "Ägg",
+            "amount": 2,
+            "unit": "st"
+        },
+        {     
+            "name": "Vaniljsocker",
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {     
+            "name": "Mjölk",
+            "amount": 0.5,
+            "unit": "dl"
+        },
+        {     
+            "name": "Vetemjöl",
+            "amount": 3,
+            "unit": "dl"
+        },
+        {     
+            "name": "Bakpulver",
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {     
+            "name": "Blåbär",
+            "amount": 100,
+            "unit": "g"
+        }, 
+        {     
+            "name": "Mandelspån",
+            "amount": 25,
+            "unit": "g"
+        }],
+    "instructions": [ "Sätt ugnen på 200°C.", "Rör matfett och socker vitt och pösigt, gärna med elvisp. Rör i äggen, ett i taget. Tillsätt vaniljsocker och mjölken. Blanda mjöl och bakpulver och rör i smeten.", "Fyll smeten i en smord muffinspanna för 6 stora muffins eller i pappersformar. Tryck i blåbären med en sked. Strö över mandelspånen. Grädda i ca 15-20 min.", "Låt muffinsarna svalna i pannan innan de lossas."]
+}
+
+###
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Klassiska semlor",
+    "description": "Här serveras du ett klassiskt recept på semlor - gräddiga och smarriga bakverk att njuta av. Fyllningen till semmelbullar består av söt mandelmassa och fluffigt vispad grädde. Glöm inte att pudra florsocker på semlans lock!",
+    "ratings": [2, 3, 4, 4, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_225325/cf_259/klassiska_semlor.jpg",
+    "timeInMins": 60,
+    "categories": [ "Bakelser" ],
+    "ingredientsAntal": 16,
+    "ingredients": [
+        {     
+            "name": "Kardemummakärnor",
+            "amount": 1.5,
+            "unit": "tsk"
+        },
+        {     
+            "name": "Jäst",
+            "amount": 25,
+            "unit": "g"
+        },
+        {     
+            "name": "Smör eller Margarin",
+            "amount": 100,
+            "unit": "g"
+        },
+        {     
+            "name": "Mjölk",
+            "amount": 2.5,
+            "unit": "dl"
+        },
+        {     
+            "name": "Ägg",
+            "amount": 1,
+            "unit": "st"
+        },
+        {     
+            "name": "Ströcocker",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {     
+            "name": "Salt",
+            "amount": 2,
+            "unit": "krm"
+        },
+        {     
+            "name": "Vetemjöl",
+            "amount": 8,
+            "unit": "dl"
+        },
+        {     
+            "name": "Pensling: ägg"
+        },
+        {     
+            "name": "Fyllning:"
+        },
+        {     
+            "name": "Strösocker",
+            "amount": 0.75,
+            "unit": "dl"
+        },
+        {     
+            "name": "Vatten",
+            "amount": 0.75,
+            "unit": "dl"
+        },
+        {     
+            "name": "Bittermandelarom",
+            "amount": 1,
+            "unit": "krm"
+        },
+        {     
+            "name": "Mandelmassa",
+            "amount": 200,
+            "unit": "g"
+        },
+        {     
+            "name": "Rostade mandlar",
+            "amount": 0.5,
+            "unit": "dl"
+        },
+        {     
+            "name": "Garnering:"
+        },
+        {     
+            "name": "Vispgrädde",
+            "amount": 3,
+            "unit": "dl"
+        },
+        {     
+            "name": "Florsocker"
+        }],
+    "instructions": [ "Mortla kardemumman. Smula jästen i en bunke. Smält matfettet i en kastrull eller i en skål i mikrovågsugnen på full effekt (max 800 W) ca 1 min. Tillsätt mjölken och värm till fingervarmt, 37°C. Häll lite av degvätskan över jästen och rör tills den löst sig.", "Tillsätt resten av degvätskan, ägg, socker, salt, kardemumma och nästan allt vetemjöl, spara lite till utbakningen. Arbeta degen smidig för hand eller i maskin tills degen släpper bunkens kanter.", "Låt degen jäsa övertäckt ca 30 min.", "Fyllning: Koka upp socker och vatten, så att sockret löser sig. Ta kastrullen från plattan. Skär mandelmassan i små bitar och vispa mandelmassan och nästan all sockerlag till en jämn bredbar smet (späd eventuellt med lite mer sockerlag). Hacka mandlarna grovt och blanda ner i mandelmassafyllningen.", "Sätt ugnen på 250°C.", "Ta upp degen på mjölad arbetsbänk och knåda den smidig med resterande mjöl. Dela degen i 10 bitar (för 10 st). Forma varje bit till en slät bulle som läggs på en bakpappersklädd plåt. Låt bullarna jäsa övertäckta ca 30 min.", "Pensling:", "Pensla bullarna med uppvispat ägg.", "Grädda mitt i ugnen i ca 10 min. Låt bullarna kallna på galler.", "Garnering:", "Skär av ett lock på varje bulle. Bred på fyllningen. Vispa grädden till fast skum, gärna med elvisp. Klicka eller spritsa grädden på bullarna och lägg på locken. Pudra över florsocker och servera semlorna."]
+}
+
+###
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Ahlgrens bilar-cheesecake",
+    "description": "Cheesecake är alltid en uppskattad favorit på dessertbordet. Den här lekfulla godingen med kexchokladbotten har en smak av Ahlgrens bilar och kommer utan tvekan uppskattas av både stora och små.",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_197836/cf_259/ahlgrens_bilar-_cheesecake.jpg",
+    "timeInMins": 60,
+    "categories": [ "Bakelser" ],
+    "ingredientsAntal": 13,
+    "ingredients": [
+        {     
+            "name": "Grädde (40%)",
+            "amount": 3,
+            "unit": "dl"
+        },
+        {     
+            "name": "Ahlgrens bilar Orginal",
+            "amount": 80,
+            "unit": "g"
+        },
+        {     
+            "name": "Kexchoklad (à 60g)",
+            "amount": 6,
+            "unit": "st"
+        },
+        {     
+            "name": "Smör",
+            "amount": 50,
+            "unit": "g"
+        },
+        {     
+            "name": "Äggvitor",
+            "amount": 3,
+            "unit": "st"
+        },
+        {     
+            "name": "Socker att vispa med äggvitorna",
+            "amount": 2,
+            "unit": "krm"
+        },
+        {     
+            "name": "Citronjuice",
+            "amount": 1,
+            "unit": "msk"
+        },
+        {     
+            "name": "Ahlgrensbilar-fluff",
+            "amount": 3,
+            "unit": "dl"
+        },
+        {     
+            "name": "Äggulor",
+            "amount": 3,
+            "unit": "st"
+        },
+        {     
+            "name": "Socker att vispa med äggulorna",
+            "amount": 1.5,
+            "unit": "dl"
+        },
+        {     
+            "name": "Färskost Orginal",
+            "amount": 200,
+            "unit": "g"
+        },
+        {     
+            "name": "Några droppar röd karamelfärg"
+        },
+        {     
+            "name": "Några droppar grön karamelfärg"
+        }],
+    "instructions": [ "Fluff: Värm grädde och Ahlgrens bilar i en kastrull på svag värme tills bilarna smälter, får inte koka. När bilarna har smält, ställ gräddblandningen i kylen och låt det svalna ca en timme.", "Botten: Smula kexchokladen med händerna i en bunke. Smält under tiden smöret i en kastrull.", "Häll sedan över smöret på kexchokladsmulorna och tryck ut smulet i en springform ca 28 cm med avtagbar kant (för 1 tårta på 12 bitar).", "Lägg in i frysen.", "Fyllning: Knäck äggen och separera äggvitan från gulan (spara äggulan till senare).", "Vispa äggvitorna med socker och citronjuice till ett hårt skum.", "Vispa Ahlgrens bilar-fluffet till vispad grädde konsistens.", "Vispa äggulor och socker pösigt ca 5 minuter.", "Tillsätt färskosten i ägguleblandningen och fortsätt att vispa.", "Vänd därefter i Ahlgrens bilar-fluffet i ägguleblandningen med slickepott.", "Sist vänder du i äggvitan på samma sätt (om du vill, ta bort 1/2 dl (för 1 tårta) för att färga hälften rosa och hälften grön för dekorering).", "Ta ut formen från frysen och häll upp blandningen. Dekorera eventuellt cheesecaken. Låt stå över natten i frysen.", "Ta loss den från formen och låt stå i kylen ca 1 timme innan servering."]
+}
+
+### alla kakor
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Havreflarn",
+    "description": "Havreflarn måste ändå räknas till de snabbaste och enklaste kakorna att baka. På under en halvtimme kan du servera perfekta och spröda havreflarn. Rör ihop smör, grädde, sirap och naturligtvis havregryn med vetemjöl, bakpulver och socker. 5 minuter i ugnen och havreflarnen är fädiggräddade.",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_223995/cf_259/havreflarn.jpg",
+    "timeInMins": 30,
+    "categories": [ "Kakor" ],
+    "ingredientsAntal": 7,
+    "ingredients": [ 
+        {
+            "name": "Smör",
+            "amount": 75,
+            "unit": "g"
+        },
+        {
+            "name": "Vispgrädde",
+            "amount": 2,
+            "unit": "msk"
+        },
+        {
+            "name": "Ljus sirap",
+            "amount": 2,
+            "unit": "msk"
+        },
+        {
+            "name": "Havregryn",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Vetemjöl", 
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Bakpulver",
+            "amount": 0.5,
+            "unit": "tsk"
+        }, 
+        {
+            "name": "Strösocker",
+            "amount": 1,
+            "unit": "dl"
+        }],
+    "instructions": [ "Sätt ugnen på 200°C.", "Smält smöret i en kastrull.", "Rör i grädden och sirapen.", "Blanda havregryn, vetemjöl, bakpulver och socker och rör ned i smörblandningen. Rör ihop till en smidig deg.", "Klicka ut smeten på en plåt med bakplåtspapper.", "Grädda mitt i ugnen ca 5 minuter.", "Låt svalna."]
+}
+
+###
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Mjölkchokladsnittar",
+    "description": "Dessa sega småkakor med djup chokladsmak är lika lätta att lyckas med som att tycka om. Extra goda blir chokladsnittarna med grovhackad mjölkchoklad på toppen. Gör gärna dubbel sats när du ändå är igång, för när man ätit en kaka vill man gärna ta en till…",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_159997/cf_259/mjolkchokladsnittar.jpg",
+    "timeInMins": 60,
+    "categories": [ "Kakor" ],
+    "ingredientsAntal": 9,
+    "ingredients": [ 
+        {
+            "name": "Rumsvarmt smör",
+            "amount": 100,
+            "unit": "g"
+        },
+        {
+            "name": "Strösocker", 
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Ljus sirap", 
+            "amount": 2,
+            "unit": "msk"
+        },
+        {
+            "name": "Vetemjöl",
+            "amount": 2,
+            "unit": "dl"
+        },
+        {
+            "name": "Kakao",
+            "amount": 2,
+            "unit": "msk"
+        },
+        {
+            "name": "Bakpulver",
+            "amount": 0.5,
+            "unit": "tsk"
+        }, 
+        {
+            "name": "Vaniljsocker",
+            "amount": 1,
+            "unit": "tsk"
+        }, 
+        {
+            "name": "Salt",
+            "amount": 1,
+            "unit": "krm"
+        }, 
+        {
+            "name": "Grovhackad mjölkchoklad",
+            "amount": 100,
+            "unit": "g"
+        }],
+    "instructions": [ "Sätt ugnen på 200°C.", "Rör smöret mjukt med socker och sirap.", "Blanda mjöl, kakao, bakpulver, vaniljsocker och salt. Rör ner i smörblandningen. Arbeta ihop till en ganska lös deg.", "Dela degen i 3 bitar på ett mjölat bakbord (för 40 st).", "Forma bitarna till tunna rullar. Lägg med ordentligt avstånd på en bakpappersklädd plåt. Platta till rullarna lätt och strö över chokladen.", "Grädda i mitten av ugnen 7–8 minuter. Kakorna kan fortfarande vara lite mjuka när man tar ut dem ur ugnen, de stelnar till när de svalnat.", "Låt längderna svalna några minuter. Skär dem lite på snedden till 2–3 cm breda bitar."]
+}
+
+###
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Saffransdrömmar med citron",
+    "description": "Drömmar blev om möjligt än mer drömmiga! I det här receptet har vi lyft de klassiska småkakorna till nya och juliga höjder med smaksättningen saffran och citron.",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_234482/cf_259/saffransdrommar_med_citron.jpg",
+    "timeInMins": 45,
+    "categories": [ "Kakor" ],
+    "ingredientsAntal": 8,
+    "ingredients": [ 
+        {
+            "name": "Saffran",
+            "amount": 0.5,
+            "unit": "g"
+        },
+        {
+            "name": "Strösocker",
+            "amount": 1.5,
+            "unit": "dl"
+        }, 
+        {
+            "name": "Smör", 
+            "amount": 50,
+            "unit": "g"
+        },
+        {
+            "name": "Vaniljsocker",
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {
+            "name": "Mat- eller rapsolja",
+            "amount": 0.5,
+            "unit": "dl"
+        }, 
+        {
+            "name": "Hjorthornssalt",
+            "amount": 0.5,
+            "unit": "tsk"
+        }, 
+        {
+            "name": "Vetemjöl",
+            "amount": 2,
+            "unit": "dl"
+        }, 
+        {
+            "name": "Finrivet citronskal",
+            "amount": 1,
+            "unit": "msk"
+        }],
+    "instructions": [ "Sätt ugnen på 150°C.", "Stöt saffranet med lite av sockret i en mortel.", "Rör smör, det stötta saffranet, resten av sockret och vaniljsocker smidigt. Tillsätt oljan lite i taget under vispning. Blanda hjorthornssaltet med lite av mjölet och rör ner i degen. Arbeta in resten av mjölet och citronskalet.", "Forma till små kulor av degen. Lägg dem på plåtar med bakplåtspapper.", "Grädda mitt i ugnen ca 15 - 20 minuter. Låt kakorna kallna på plåten."]
+}
+
+###
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Klassiska schackrutor",
+    "description": "Schackrutan är en ohotad mördegsfavorit. Den klassiska småkakan går aldrig ur tiden och uppskattas alltid, både för smaken och det raffinerade mönstrets skull. Dessutom så enkel att baka att det inte finns några ursäkter att låta bli.",
+    "ratings": [2, 3, 1, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_190036/cf_259/klassiska_schackrutor.jpg",
+    "timeInMins": 60,
+    "categories": [ "Kakor" ],
+    "ingredientsAntal": 5,
+    "ingredients": [ 
+        {
+            "name": "Osaltat smör",
+            "amount": 200,
+            "unit": "g"
+        }, 
+        {
+            "name": "Strösocker",
+            "amount": 1,
+            "unit": "dl"
+        }, 
+        {
+            "name": "Vetemjöl",
+            "amount": 4.5,
+            "unit": "dl"
+        }, 
+        {
+            "name": "Ljus deg:"
+        },
+        {
+            "name": "Vaniljsocker",
+            "amount": 2,
+            "unit": "tsk"
+        }, 
+        {
+            "name": "Mörk deg:"
+        },
+        {
+            "name": "Kakao",
+            "amount": 2,
+            "unit": "msk"
+        }],
+    "instructions": [ "Ta fram smöret så det hinner bli rumsvarmt.", "Vispa ihop smör och socker till en jämn smet.", "Tillsätt vetemjöl, lite i taget, och fortsätt vispa tills det blir stora smulor.", "Dela degen i två. Tillsätt vaniljsocker till den ena och kakao till den andra delen. Tryck ihop varje del för sig, till två bollar.", "Ta upp degarna på ett bakbord och dela dem i två delar så du får två ljusa och två mörka delar.", "Rulla ut till längder och tryck till dem mot bakbordet så längderna får platta kanter. Lägg dem tätt ihop, med två ovanpå de andra så de bildar ett litet schackmönster.", "Låt vila i kylen i 1-2 timmar.", "Sätt ugnen på 200°C.", "Ta fram längden och skär ca 3-4 mm tjocka skivor.", "Lägg kakorna på en plåt med bakplåtspapper och grädda mitt i ugnen i ca 8-10 minuter."]
+}
+
+###
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Sega kolasnittar med ingefära",
+    "description": "Dessa kolasnittar med ingefära är sådär knapriga och härligt sega som vi vill ha dem. Att de är enkla att baka och rörs ihop på ett nafs gör ju inte saken sämre. Sega kolakakor är kanske snabbaste vägen till njutning.",
+    "ratings": [2, 1, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_189972/cf_259/sega_kolasnittar_med_ingefara.jpg",
+    "timeInMins": 60,
+    "categories": [ "Kakor" ],
+    "ingredientsAntal": 7,
+    "ingredients": [ 
+        {
+            "name": "Normalsaltat smör",
+            "amount": 100,
+            "unit": "g"
+        }, 
+        {
+            "name": "Strösocker",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Vaniljsocker",
+            "amount": 1,
+            "unit": "msk"
+        },
+        {
+            "name": "Ljus sirap",
+            "amount": 1,
+            "unit": "msk"
+        },
+        {
+            "name": "Vetemjöl",
+            "amount": 2,
+            "unit": "dl"
+        },
+        {
+            "name": "Bakpulver",
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {
+            "name": "Malen ingefära",
+            "amount": 1,
+            "unit": "tsk"
+        }],
+    "instructions": [ "Sätt på ugnen på 175°C.", "Hyvla smöret tunt och rör ihop med socker.", "Tillsätt övriga ingredienser och rör ihop till en smidig deg.", "Dela degen i hälften och rulla ut till två längder (för 20 st) som läggs på en plåt med bakplåtspapper. Platta till rullarna något.", "Grädda i ugnen i 7-8 minuter.", "Ta ut plåten och skär kakorna i lagom stora, sneda bitar medan de fortfarande är varma."]
+}
+
+###
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Hallongrottor",
+    "description": "Lättlagade och underbara är dessa småkakor. Hallongrottor består av mördeg som smälter i munnen och ljuv hallonsylt. En klassisk kaka som fortfarande är lika populär.",
+    "ratings": [2, 3, 4, 1, 2, 3],
+    "imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_21927/cf_259/hallongrottor.jpg",
+    "timeInMins": 30,
+    "categories": [ "Kakor" ],
+    "ingredientsAntal": 6,
+    "ingredients": [ 
+        {
+            "name": "Vetemjöl",
+            "amount": 4.5,
+            "unit": "dl"
+        }, 
+        {
+            "name": "Socker",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Bakpulver",
+            "amount": 1,
+            "unit": "tsk"
+        }, 
+        {
+            "name": "Vaniljsocker",
+            "amount": 2,
+            "unit": "tsk"
+        },
+        {
+            "name": "Smör",
+            "amount": 200,
+            "unit": "g"
+        },
+        {
+            "name": "Fyllning:"
+        },
+        {
+            "name": "Fast hallonsylt",
+            "amount": 1,
+            "unit": "dl"
+        }],
+    "instructions": [ "Sätt ugnen på 200°C.", "Blanda samman mjöl, socker, bakpulver och vaniljsocker i en skål. Skär matfettet i mindre bitar och tillsätt det. Arbeta snabbt samman till en deg, gärna i matberedare. Om du låter degen vila en liten stund i kylen blir den lättare att hantera.", "Forma degen till valnötsstora bollar. Lägg i muffinsformar på plåtar.", "Fyllning: Gör en fördjupning i varje kaka och klicka i lite sylt.", "Grädda mitt i ugnen 10-15 minuter. Låt svalna på galler."]
+}
+
+###
+GET https://paprika-bxu3y.ondigitalocean.app/recipes?query=pap HTTP/1.1
+
+###
+
+
+GET https://paprika-bxu3y.ondigitalocean.app//categories/Bakelser/recipes?query=ahl HTTP/1.1
+
+###
+
+GET https://paprika-bxu3y.ondigitalocean.app/recipes/62836e4e5fcfd8bcf9296fc3 HTTP/1.1
+
+### visar alla kategorier
+
+GET https://paprika-bxu3y.ondigitalocean.app/categories HTTP/1.1
+
+### visar alla bakelser
+GET https://paprika-bxu3y.ondigitalocean.app/categories/Bakelser/recipes HTTP/1.1
+
+### visar alla kakor
+GET https://paprika-bxu3y.ondigitalocean.app/categories/Kakor/recipes HTTP/1.1
+
+### ska visa alla tårtor
+GET https://paprika-bxu3y.ondigitalocean.app/categories/Tårtor/recipes HTTP/1.1
+
+###
+
+POST https://paprika-bxu3y.ondigitalocean.app/recipes/62836e0e5fcfd8bcf9296fa3/ratings
+Content-Type: application/json
+
+{
+    "rating": 5
+}
+###
+
+GET https://paprika-bxu3y.ondigitalocean.app/recipes/62836e0e5fcfd8bcf9296fa3/comments
+
+###
+//Sega kolasnittar med ingefära
+POST https://paprika-bxu3y.ondigitalocean.app/recipes/62836e0e5fcfd8bcf9296fa3/comments
+Content-Type: application/json
+
+{
+    "comment": "Mycket gott!",
+    "name": "Jonatan"
+}
+
+###
+PATCH https://paprika-bxu3y.ondigitalocean.app/recipes/62836e4e5fcfd8bcf9296fc3 HTTP/1.1
+Content-Type: application/json
+
+{
+  "ingredients": [
+      {
+            "name": "Rumstempererat smör",
+            "amount": 100,
+            "unit": "g"
+        },
+        {
+            "name": "Strösocker",
+            "amount": 2,
+            "unit": "dl"
+        },
+        {
+            "name": "Ägg",
+            "amount": 2,
+            "unit": "st"
+        },
+        {
+            "name": "Sirap",
+            "amount": 1,
+            "unit": "msk"
+        },
+        {
+            "name": "Vetemjöl",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Salt",
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {
+            "name": "Vaniljsocker",
+            "amount": 1,
+            "unit": "tsk"
+        },
+        {
+            "name": "Kakao",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Dubbeldaim",
+            "amount": 112,
+            "unit": "g"
+        },
+        {
+            "name": "smör (till formen)"
+            
+        },
+        {
+            "name": "ströbröd (till formen)"
+        },
+        {
+            "name": "Gelatinblad",
+            "amount": 5,
+            "unit": "st"
+        },
+        {
+            "name": "Färska jordgubbar",
+            "amount": 0.5,
+            "unit": "l"
+        },
+        {
+            "name": "Äggulor",
+            "amount": 3,
+            "unit": "st"
+        },
+        {
+            "name": "Florsocker",
+            "amount": 2,
+            "unit": "dl"
+        },
+        {
+            "name": "Kakao",
+            "amount": 1,
+            "unit": "dl"
+        },
+        {
+            "name": "Vispgrädde",
+            "amount": 6,
+            "unit": "dl"
+        },
+        {
+            "name": "Färska jordgubbar",
+            "amount": 1,
+            "unit": "l"
+        }
+
+    ]
+}
+
+###
+DELETE https://paprika-bxu3y.ondigitalocean.app/recipes/62a0a0e8ac9c9ef629b6fa24 HTTP/1.1
+
+
+###
+
+GET https://paprika-bxu3y.ondigitalocean.app/clear HTTP/1.1
