@@ -1,6 +1,6 @@
 # Recipe Search App
 
-![Placeholder for picture](picture.png)
+![Placeholder for picture](https://github.com/IngridKutra/IngrdKutra.github.io/blob/paprika-project/Frame%203.png)
 
 This is a simple recipe search application that allows users to search for recipes using a RESTful API. The application is built using React and Bootstrap for the front-end, and Node.js and Express for the back-end.
 
